@@ -1,19 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-:root {
-    --color-primario: #132620;
-    --color-fondo: #f0f0f0;
-    --color-texto: #333;
-    --color-blanco: #fff;
-    --color-borde: #ddd;
-    --color-focus: #ff4500;
-}
-
 .contenedor_header {
     display: flex;
     flex-direction: row;
