@@ -2,11 +2,13 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
+  root: "public",
+  publicDir: false,
   build: {
     rollupOptions: {
       input: {
         //d:aplicaion/dist/
-        index: resolve(__dirname, "index.html"),
+        index: resolve(__dirname, "public/index.html"),
         storeHome: resolve(__dirname, "src/pages/store/home/home.html"),
         storeCart: resolve(__dirname, "src/pages/cart/cart.html"),
         productTypes: resolve(__dirname, "src/types/product.ts"),
