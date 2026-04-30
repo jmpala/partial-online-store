@@ -1,3 +1,3 @@
 import "./css/main.css";
 
-alert("Hello World!");
+import "./js/home";
