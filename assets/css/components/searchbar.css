@@ -1,0 +1,35 @@
+.buscador {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 0 15px;
+    height: 40px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.buscador input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    height: 100%;
+    font-size: 14px;
+}
+
+.lupa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    font-size: 1.1rem;
+}
+
+.buscador input:focus {
+    border-color: var(--color-primario);
+}

@@ -1,0 +1,71 @@
+.btn-comprar {
+    background-color: var(--color-borde);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-vaciar {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.btn-agregar {
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-agregar:hover {
+    background-color: #2d5a4c;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-eliminar {
+    background: none;
+    border: none;
+    color: #888; /* Gris más oscuro para el texto */
+    font-size: 13px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn-eliminar:hover {
+    text-decoration: underline; /* Efecto visual al pasar el mouse */
+    color: #ff4500; /* Opcional: cambia a rojo al querer borrar */
+}
+
+.cat-btn {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 12px 20px;
+    font-size: 15px;
+    color: var(--color-primario);
+    cursor: pointer;
+    border-radius: 12px; /* Bordes suaves */
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.cat-btn.activo {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    font-weight: 600;
+}
+
+.cat-btn:hover:not(.active) {
+    background-color: var(--color-blanco);
+    color: var(--color-primario)
+}

@@ -1,5 +1,3 @@
-import "./css/reset.css";
-import "./css/home.css";
-import "./css/cart.css";
+import "./css/main.css";
 
 alert("Hello World!");
