@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodStone</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+
+<body>
+    <header>
+        <!-- Head -->
+        <div class="contenedor_header">
+            <div class="logo">
+                <span class="icono">🛒</span>
+                <h1><span>Food</span>Store</h1>
+            </div>
+            <!-- links navegacion-->
+            <nav class="links_nav">
+                <a href="./home.html">Catálogo</a>
+                <a href="../../cart/cart.html">Carrito</a>
+            </nav>
+        </div>
+    </header>
+    <!-- contenedor de todo el body-->
+    <div class="contenedor">
+        <aside class="barra_lateral">
+            <h3 class="titulo_barra_lateral">CATEGORÍAS</h3>
+            <nav class="categorias-nav">
+                <div id="categorias-container" class="categorias-container">
+                    <button class="cat-btn activo" id="cat-todos">Todos los productos</button>
+                </div>
+
+
+            </nav>
+        </aside>
+        <!--Contenedor de solo productos -->
+        <main class="contenedor_productos">
+            <div class="buscador">
+                <span class="lupa">🔍</span>
+                <input type="text" placeholder="Buscar productos..." id="buscador">
+            </div>
+            <section id="grid-productos" class="grid-productos">
+
+            </section>
+
+        </main>
+    </div>
+
+    <script type="module" src="./home.ts"></script>
+</body>
+
+
+</html>
